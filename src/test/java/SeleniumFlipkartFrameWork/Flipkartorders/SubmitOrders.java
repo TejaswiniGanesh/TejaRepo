@@ -36,6 +36,8 @@ public class SubmitOrders {
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Men's Kurtas")));
 		a.moveToElement(driver.findElement(By.linkText("Men's Kurtas"))).click().build().perform();
 		List<WebElement> Allproducts = driver.findElements(By.cssSelector("a[title*='Men']"));
+		System.out.println("these are my changes1");
+		System.out.println("these are my changes2");
       for(int i=0;i<Allproducts.size();i++)
       {
     	 String productname = Allproducts.get(i).getText();

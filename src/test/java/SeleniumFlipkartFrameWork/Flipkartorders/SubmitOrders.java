@@ -38,6 +38,8 @@ public class SubmitOrders {
 		List<WebElement> Allproducts = driver.findElements(By.cssSelector("a[title*='Men']"));
 		System.out.println("these are my changes1");
 		System.out.println("these are my changes2");
+		System.out.println("these are my changes3");
+		System.out.println("these are my changes4");
       for(int i=0;i<Allproducts.size();i++)
       {
     	 String productname = Allproducts.get(i).getText();

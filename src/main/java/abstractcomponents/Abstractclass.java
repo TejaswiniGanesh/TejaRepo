@@ -40,7 +40,7 @@ public class Abstractclass {
 		a.moveToElement(ele).click().build().perform();
 	}
 	
-	public void MoveandClicktest(WebElement ele)
+	public void MoveandClicktesting(WebElement ele)
 	{
 		Actions a = new Actions(driver);
 		a.moveToElement(ele).click().build().perform();

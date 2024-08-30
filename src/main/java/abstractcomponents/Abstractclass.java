@@ -40,6 +40,12 @@ public class Abstractclass {
 		a.moveToElement(ele).click().build().perform();
 	}
 	
+	public void MoveandClicktestingcreate(WebElement ele)
+	{
+		Actions a = new Actions(driver);
+		a.moveToElement(ele).click().build().perform();
+	}
+	
 	public String getWindowHandles()
 	{
 		Set<String> windows= driver.getWindowHandles();
